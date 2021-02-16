@@ -1,0 +1,85 @@
+
+/*.header{
+    color: red;
+    font-size: 20px;
+    margin-bottom: 5px;
+    background-color: red;
+    text-align: left;
+   
+}*/
+.btnsearch{
+    
+    color: red;
+    margin-bottom: 10px;
+    border-radius: 20px;
+    margin-bottom: 0px;
+    background-color: gray;
+    border-color: transparent;
+    top: 10px;
+    margin-left: 30%;
+  
+     padding-top: 10px;
+     text-align: right;
+     
+    
+}
+
+.searchdiv{
+    display: flex;
+      
+     margin-left: 10%;
+  }
+
+.nav{
+    width: 100%;
+    background-color: black;
+  
+}
+.nav-link{
+   
+
+    font-size: 15px;
+  
+    margin-top: 10px;
+    text-align: center;
+    border: transparent;
+    color: yellow;
+    text-align: left;
+    width: fit-content;
+  
+  
+    
+}
+a:active{
+    color: red;
+
+}
+a:hover{
+ color: green; 
+}
+button{
+  background-color: indigo;
+  border-radius: 20px;
+   text-align: center;
+
+   margin-top: 10px;
+   margin: 5%;
+}
+
+.postsomething{
+    margin-left: 10px;
+    color: white;
+    border-radius: 10px;
+ 
+}
+.page-header{
+    background-color: black;
+}
+a{
+   
+    margin-right: 5%;
+    
+}
+body{
+    background-color: white;
+}
