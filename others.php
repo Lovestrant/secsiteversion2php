@@ -31,7 +31,7 @@
 
 			$("#morebtn").click(function() {
 				 postcount= postcount+ 10;
-				$(".postclass").load("loadgeneralposts.php", {
+				$(".postclass").load("loadothersposts.php", {
 					postNewCount: postcount 
 
 				});
@@ -66,7 +66,7 @@
 <div class="postclass">
 <?php
 		include('db.php');
-		$sql="SELECT * FROM secsite ORDER BY ID DESC LIMIT 3";
+		$sql="SELECT * FROM secsite where category='others' ORDER BY ID DESC LIMIT 3";
     
 		$result= mysqli_query($con,$sql);
 		$queryResults= mysqli_num_rows($result);
