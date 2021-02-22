@@ -4,6 +4,8 @@
 <head>
 
 
+
+
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -69,7 +71,7 @@
                 <label class="Filelabel">Attach a picture:</label>
                 <input name="file" type="file" id="file" accept="image/*">
 
-                <label class="Filelabel">Attach audio:</audio>:</label>
+                <label class="Filelabel">Attach audio:</label>
                 <input name="file2" type="file" id="file" accept=" audio/*">
 
                 <p><br><label class="Filelabel">Attach a video:</label>
@@ -98,6 +100,8 @@
 </body>
 </html>
 
+    <!--secsitee js share api-->
+    <script src="secsitee.js"></script>
 <?php
 
 include('db.php');

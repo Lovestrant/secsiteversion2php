@@ -1,3 +1,9 @@
 .postclass{
     margin-top: 10%;
 }
+
+.sharecontainer{
+    display:flex;
+    flex-direction: column;
+    position: absolute;
+}

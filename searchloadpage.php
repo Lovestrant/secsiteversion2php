@@ -43,7 +43,10 @@
 </head>
 <body>
 
-    <div class="page-header">
+  
+<div class="page-header" style="background-color: rgba(44, 40, 40, 0.911);">
+    <a href="general.php"><button class="btnback"  style="color: red;height:40px;background-color:grey;"><i class="material-icons">GENERAL</i></button></a> 
+ 
         
     <div class="searchheader">
     <form action="searchloadpage.php" method="POST" name="sec-search3">
@@ -57,8 +60,8 @@
     <div class= "container">
 
 <div>
-<div id="postsclass3">
-			<!--This is where the text posts appear-->
+<div class="displayposts">
+			<!--This is where  posts appear-->
          <?php
             include('db.php');
             if(isset($_POST['searchbtn'])) {
@@ -78,7 +81,7 @@
                             <div style='height:auto;margin-top:20%;width:100%; text-align: centre;margin-left:0px;'>
                             <div  style='height: auto;width: 100%;background-color: grey; 
                              border-radius: 0px;text-align: left; margin-left:0%;
-                              padding:10px; color:white;  margin-top: -20%; '>".$row['caption']."</div>
+                              padding:10px; color:white;  margin-top: -10%; '>".$row['caption']."</div>
                     
                             <video style='width: 100%; height: auto; margin-top:0%;' controls >
                             <source src='Files/".$row['videoname']."' type= 'video/mp4'>

@@ -122,11 +122,11 @@
 <form id="commentform" action="comments.php" method="POST">
         <p style=" display: flex;">
 		<input type="hidden" name= "hiddenid" value=<?php echo $id; ?>>
-        <textarea class="form-control" name="commenttextarea" id="commenttextarea" cols="50" rows="2" style="border-radius: 10px;" placeholder="Type comment"></textarea>
-		
-	    <button type="submit" class="btn btn-success" name="commentbtn"style="margin-bottom: 10%;margin-left: 10px;">comment</button>
-      
+        <textarea class="form-control" name="commenttextarea" id="commenttextarea" cols="50" rows="2" style="border-radius: 10px; width: 100%;" placeholder="Type comment"></textarea>
 		</p>
+	    <button type="submit" class="btn btn-success" name="commentbtn"style="margin-bottom: 10%;margin-left: 10px; margin-top: 0px;">comment</button>
+      
+		
 		<h2 id="messagedisplay" style="color: white;"></h2>
      </form>
         
@@ -151,7 +151,7 @@
 
 
       
-<div id="commentsdisplay" style="width: 100%; margin-top: 2%; margin-left: 1%;height: auto;">
+<div id="commentsdisplay" style="width: 100%; margin-top: -8%; margin-left: 1%;height: auto;">
         <!--This is where the comments will appear  -->
     <?php
 		include('db.php');

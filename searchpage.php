@@ -21,12 +21,19 @@
 </head>
 <body>
 
-    <div class="page-header">
-        
+   
+
+    <div class="page-header" style="background-color: rgba(44, 40, 40, 0.911);">
+    <a href="general.php"><button class="btnback"  style="color: red;height:40px;background-color:grey;"><i class="material-icons">GENERAL</i></button></a> 
+ 
     <div class="searchheader">
+   
     <form action="searchloadpage.php" method="POST" name="sec-search3">
+   
     <input type="text" placeholder="Search SecSitee... "class="searchinput" name="searchinput">
     <button class="btnsearch" name="searchbtn"><i class="material-icons">search</i></button>
+   
+
     </form>
    
    
