@@ -1,7 +1,4 @@
 
-     <!--secsitee js share api-->
-     <script src="secsitee.js"></script>
-
     
 
 
